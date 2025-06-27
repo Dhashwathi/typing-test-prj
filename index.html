@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Typing Test</title>
+</head>
+<body>
+    <h1 class="mtitle">DuckKeys</h1>
+    <div class="layout">
+      <div class="left-side">
+        <div class="about">
+            <h2>Welcome to DuckKeys</h2><br>
+            <p> Where Quacks Meet Speed! Waddle your way into the world of typing with flair and feathers.No fluff, just fast fingers. <strong>let’s get quackin’!</strong></p>
+        </div><br><br>
+        <div class="inst">
+            <h2>Instructions</h2>
+        <ul>
+            <li>🦆 Start typing to begin — your first keystroke kicks off the countdown!</li>
+            <li>💨 Type the sentence as fast and as accurately as a duck on a mission.</li>
+            <li>🔁 Want a redo? Hit "Enter" or "Restart" to take another quack at it!</li>
+        </ul>
+        </div>
+      </div>
+    <div class="main">
+      <div id="proverb" class="proverb"></div>
+      <input id="input" class="pinput" placeholder="Start typing here..."></input>
+      <button id="restart" class="hid-restart">Restart</button><br>
+      <img src="assets\css\Telecommuting-pana (1).png"  height="320px" width="300px">
+     </div>
+    
+    <div class="ryt-side">
+        <div class="timer" id="timeinsec">
+            <h2>Timer</h2>
+            <span id="value">00:00:00</span>
+        </div>
+        <div class="board">
+        <h3><strong>Leaderboard</strong></h3>
+            <ol id="leaderboard"></ol>
+        </div>
+    </div>
+</div>
+  <div id="res-popup" class="hidden-popup">
+  <div class="pcontent">
+    <h2>Test Completed</h2>
+    <p id="msg"></p><br>
+    <p>Words Per Minute:<span id="wpm"></span></p>
+    <p>Total Characters Typed: <span id="total"></span></p>
+    <p>Correct Characters Typed: <span id="crt-words"></span></p>
+    <p>Time Taken: <span id="tym-taken"></span> seconds</p>
+    <p>Accuracy: <span id="acc"></span>%</p>
+    <button onclick="location.reload()">Try Again</button>
+  </div>
+</div>
+  <script type="module" src="dist/script.js"></script>
+
+</body>
+</html>
