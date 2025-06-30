@@ -3,13 +3,27 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx playwright test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "typescript": "^5.8.3"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhashwathi/typing-test-prj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dhashwathi/typing-test-prj/issues"
+  },
+  "homepage": "https://github.com/Dhashwathi/typing-test-prj#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1"
+  },
+  "description": ""
 }
